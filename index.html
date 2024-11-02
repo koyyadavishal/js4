@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=+prompt("enter first number");
+        let b=+prompt("enter second number");
+        let opp=prompt("enter an a operator like " + "(+ "+ "- "+ "* "+ "/ )");
+        if(opp=='+'){
+            console.log(a+b);
+
+        }
+        else if(opp =='-'){
+            console.log(a-b);
+        }
+        else if(opp =='*'){
+            console.log(a*b);
+        }
+        else if(opp =='/'){
+            console.log(a/b);
+        }
+        else{
+            console.log("enter a number or operator");
+        }
+        //days name
+
+    let days=prompt(" enter ur current dayname");
+     switch(days){
+        case "monday":
+        console.log("start your week strong");
+        break;
+        case "tuesday":
+        console.log("keep going there is a long days have to weekend");
+        break;
+        case "wednesday":
+        console.log("halfway there");
+        break;
+        case "thursday":
+        console.log("almost weekend");
+        break;
+        case "friday":
+        console.log("waiting for saturday");
+        break;
+        case "saturday":
+        console.log("enjoy your weekeend");
+        break;
+        case "sunday":
+        console.log("just sleep u dont work anything");
+        break;
+        default:
+            console.log("invaild day")
+        }
+
+            //traffic light
+            let light=prompt("enter the tarffic signal light color");
+            switch(light){
+                case "red":
+                    console.log("stop");
+                    break;
+                case "yellow":
+                    console.log("get ready to go");
+                    break;
+                case "green":
+                    console.log("you can go now");
+                    break; 
+                    default:
+                    console.log("enter the correct color");
+            }
+
+            // discount calculator
+            let disco=+prompt("enter ur purchase amount");
+           
+           if(disco<=50){
+            console.log("no discount");
+
+           }
+           else if(disco<=100){
+            console.log("5% discount");
+           }
+           else if(disco<=200){
+            console.log("10% discount");
+           }
+           else if(disco<=300){
+            console.log("15% discount");
+           }
+           else{
+            console.log("happy shopping");
+           }
+
+            //restaurant menu
+            let menu=prompt("enter the dish names like biriyani , shawarma , fried rice , veg pula");
+            
+            switch(menu){
+                case "biriyani":
+                    console.log("biriyani price is Rs:250");
+                    break;
+                case "shawarma":
+                    console.log("shawarma price is Rs:200"); 
+                    break;
+                case "fried rice" :
+                    console.log("fried rice price is Rs:150");
+                    break;
+                case "veg pula" :
+                    console.log("veg pila price is Rs:100");
+                    break;
+                default:
+                    console.log("enter only given iteams");            
+                       
+            }
+
+            //calculator
+            let num1=+prompt("ente the first number");
+            let num2=+prompt("enter the second number");
+            let op=prompt("enter an a operator like " + "(+ "+ "- "+ "* "+ "/ )");
+            switch(op){
+                case "+":
+                    console.log(num1+num2);
+                break;
+                case "-":
+                    console.log(num1-num2);
+                break;
+                case "*":
+                    console.log(num1*num2);
+                break;
+                case "/":
+                    console.log(num1/num2);
+                break;
+                default:
+                    console.log("enter the given operators");
+                
+                        
+            }
+            </script>
+</body>
+</html>
